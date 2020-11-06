@@ -3,11 +3,10 @@ CREATE DATABASE burgers_db;
 
 USE burgers_db;
 
-CREATE TABLE burgers (
+CREATE TABLE burgers(
     id INT NOT NULL AUTO_INCREMENT,
-    burger_name VARCAR(255) NOT NULL,
+    burger_name VARCHAR(255) NOT NULL,
     devoured BOOLEAN DEFAULT false,
-    PRIMARY KEY (id)
+    PRIMARY KEY(id)
 );
 
-ALTER USER 'root@localhost' IDENTIFIED WITH mysql_native_password BY 'root';
