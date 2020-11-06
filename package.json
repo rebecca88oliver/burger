@@ -1,0 +1,24 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "order a burger!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebecca88oliver/burger.git"
+  },
+  "author": "rebecca oliver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebecca88oliver/burger/issues"
+  },
+  "homepage": "https://github.com/rebecca88oliver/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "mysql": "^2.18.1"
+  }
+}
